@@ -1,0 +1,116 @@
+body {
+    display: flex;
+}
+.project {
+    width: 1800px;
+    height: 900px;
+    background-color: #1b1b2a;
+    color: #ada4a4;
+}
+
+a {
+    color: #726767;
+}
+
+.Top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Down {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.Table1 {
+    margin: 70px 0 0 70px;
+}
+
+.table1 {
+    width: 800px;
+    height: 150px;
+}
+
+.table1 tr {
+    box-shadow: 0px 0px 0px 1px rgb(130, 130, 141);
+}
+
+.Table2 {
+    margin: 70px 0 0 70px;
+}
+
+.table2 {
+    width: 800px;
+    height: 150px;
+}
+
+.table2 tr {
+    box-shadow: 0px 0px 0px 1px rgb(130, 130, 141);
+}
+.Table3 {
+    margin: 70px 0 0 70px;
+}
+
+.table3 {
+    width: 800px;
+    height: 150px;
+}
+
+.table3 tr {
+    box-shadow: 0px 0px 0px 1px rgb(130, 130, 141);
+}
+
+
+
+.Name {
+    width: 300px;
+    padding-left:  10px;
+}
+
+
+.Minus {
+    margin-left: 4px;
+    height: 12px;
+    width: 12px;
+}
+
+.Data {
+    width: 200px;
+    color: rgb(130, 130, 141);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+.down {
+
+    height: 9px;
+    width: 9px;
+}
+
+
+.More {
+    margin-right: 10px;
+}
+
+
+.InputIcons i {
+    position: absolute;
+}
+
+.InputIcons {
+    width: 150px;
+}
+
+.InputField {
+    color: white;
+    padding: 5px;
+    padding-left: 20%;
+    margin-right: 2%;
+    border-radius: 5px;
+    background-color: rgb(172, 171, 171);
+}
+
+.Right {
+    width: 200px;
+}
