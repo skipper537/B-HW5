@@ -69,7 +69,7 @@ a {
 
 
 .Minus {
-    margin-left: 4px;
+    margin-left: 0px;
     height: 12px;
     width: 12px;
 }
@@ -99,18 +99,41 @@ a {
 }
 
 .InputIcons {
+    position: relative;
     width: 150px;
 }
 
 .InputField {
-    color: white;
-    padding: 5px;
-    padding-left: 20%;
-    margin-right: 2%;
+    background-color: rgb(61 59 59);
+    height: 25px;
+    position: absolute;
+    left: 50px;
+    bottom: -12.5px;
     border-radius: 5px;
-    background-color: rgb(172, 171, 171);
+    border-style: none;
+    text-indent: 30px;
+}
+
+.SearchIcons {
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    left: 56px;
+    bottom: -8px;
+    z-index: 1;
 }
 
 .Right {
     width: 200px;
+}
+
+
+
+.name {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.minus {
+    margin-left: 8px;
 }
